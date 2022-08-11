@@ -1,0 +1,145 @@
+body{
+    background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-006-lady-lips.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+#main{
+    display: flex;
+    justify-content: center;
+    
+}
+#main_box{
+    position: absolute;
+    top: 20%;
+    height: fit-content;
+    border-radius: 20px;
+    justify-content: center;
+    width: 700px;
+    background-color: lightcoral;
+    border: 3px solid lightcoral;
+}
+.post_heading{
+    display: flex;
+    justify-content: center;
+}
+#post_heading{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Mouse Memoirs', sans-serif;
+    word-spacing: 15px;
+    letter-spacing: 4px;
+    color: white;
+    border-bottom: 2px, solid, black;
+    margin-top: 17px;
+    margin-bottom: 25px;
+    
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+#image {
+    margin: 16px;
+    
+}
+#image > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    
+}
+#id_name{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 25px;
+    word-spacing: 9px;
+    letter-spacing: 2px;
+    
+}
+#post_btn{
+    position: absolute;
+    right: 60px;
+
+}
+#btn {
+    border-radius: 10px;
+    border: 3px solid rgb(45, 92, 188);
+    background-color: rgb(53, 101, 195);
+   
+}
+#btn > p{
+    width: 80px;  
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+    
+    
+}
+.form{
+    margin-top: 25px;
+    margin-left: 14px;
+}
+#form{
+    width: 95%;
+    height: 30px;
+    padding: 9px;
+    margin: 6px;
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    background-color: whitesmoke;
+
+}
+
+.form ::placeholder{
+    font-size: 25px;
+    color: black;
+
+}
+.form > form :focus {
+    outline: none;
+
+}
+.post_list{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    /* font-weight: bold; */
+    
+}
+#like_section{
+    list-style: none;
+}
+#like_section1{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    /* font-family: 'Mouse Memoirs', sans-serif; */
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(45, 92, 188);
+} 
+#comment{
+    text-decoration: none;
+    color: rgb(45, 92, 188);
+    /* font-family: 'Mouse Memoirs', sans-serif; */
+}   
+#box{
+    width: 280px;
+    height: 120px;
+    border-radius: 10px;
+    position: absolute;
+    left: 32%;
+    bottom: 30%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#small_box > p{
+    font-size: 23px;
+    color: lightcoral;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
